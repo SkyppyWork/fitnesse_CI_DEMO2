@@ -13,7 +13,7 @@ public class FitNesseContextTest {
   @Test
   public void testGetRootPagePath() {
     //Modificación de la clase
-    FitNesseContext context = FitNesseUtil.makeTestContext();
+    FitNesseContext context = FitNesseUtil.makeTestContext()
     assertEquals(context.rootPath + File.separator + FitNesseUtil.base, context.getRootPagePath());
   }
 
