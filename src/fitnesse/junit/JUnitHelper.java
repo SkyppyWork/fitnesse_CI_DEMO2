@@ -35,9 +35,6 @@ public class JUnitHelper {
   public JUnitHelper(String fitNesseRootPath, String outputPath) {
     this(fitNesseRootPath, outputPath, new PrintTestListener());
   }
-
-  QUITAR
-  
   
   public JUnitHelper(String fitNesseDir, String outputDir,
                      TestSystemListener resultsListener) {
